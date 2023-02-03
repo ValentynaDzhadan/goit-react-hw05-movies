@@ -1,0 +1,7 @@
+.navLink {
+  color: green;
+}
+
+.active {
+  color: rgb(224, 0, 0);
+}
