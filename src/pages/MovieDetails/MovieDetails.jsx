@@ -4,7 +4,6 @@ import { MovieCard } from 'components/MovieCard/MovieCard';
 import { Loader } from 'components/Loader/Loader';
 import { useLocation, useParams } from 'react-router-dom';
 import { GoBackBtn } from 'components/GoBackBtn/GoBackBtn';
-import { routes } from 'routes';
 
 export const MovieDetails = () => {
   console.log('MovieDetails');

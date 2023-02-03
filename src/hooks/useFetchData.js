@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 export const useFetchData = (callback, deps = []) => {
   const [data, setData] = useState(null);
