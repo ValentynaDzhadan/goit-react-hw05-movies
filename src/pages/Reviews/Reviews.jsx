@@ -22,10 +22,8 @@ export const Reviews = () => {
       <h1>Movie Cast</h1>
       {isLoading ? (
         <Loader />
-      ) : reviews === [] ? (
-        <MovieReviewsList reviews={reviews} />
       ) : (
-        <h2>We don't have any reviews for this movie.</h2>
+        reviews && <MovieReviewsList reviews={reviews} />
       )}
     </>
   );
