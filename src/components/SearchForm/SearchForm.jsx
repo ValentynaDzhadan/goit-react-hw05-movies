@@ -3,7 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 
 export const SearchForm = () => {
   const [searchParams, setSearchParams] = useSearchParams();
-  const query = searchParams.get('query') ?? '';
+  const query = '';
 
   const [value, setValue] = useState(query);
   const handleChange = event => {
